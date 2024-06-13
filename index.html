@@ -12,7 +12,6 @@
 
     <div class="sidenav">
         <a href="#menu">MENU</a>
-<<<<<<< HEAD
         <!-- Hệ thống -->
         <button class="dropdown-btn">Hệ thống
             <i class="fa fa-caret-down"></i>
@@ -149,9 +148,8 @@
                 </button>
                 <div class="dropdown-container">
                     <a href="#">Danh sách yêu cầu thẩm định<i class="fa fa-plus"></i></a>
-                </div>
-
-=======
+                </div
+                    
         <!-- Hợp đồng -->
         <button class="dropdown-btn">Hợp đồng
             <i class="fa fa-caret-down"></i>
@@ -177,12 +175,12 @@
                 <a href="#">Danh sách yêu cầu thẩm định <i class="fa fa-plus"></i></a>
             </div>
             <div class="dropdown-container1">
->>>>>>> e2c8840ae03b66b709689e1b85ead4d4c1dd949e
+                
                 <button class="dropdown-btn">Yêu cầu vay
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-container">
-<<<<<<< HEAD
+                    
                     <a href="#">Danh sách yêu cầu vay<i class="fa fa-plus"></i></a>
                 </div>
             </div>
@@ -212,185 +210,6 @@
             <i class="fa fa-caret-down"></i>
         </button>
 
-        <script>
-            /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-            var dropdown = document.getElementsByClassName("dropdown-btn");
-            var i;
-
-            for (i = 0; i < dropdown.length; i++) {
-                dropdown[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var dropdownContent = this.nextElementSibling;
-                    if (dropdownContent.style.display === "block") {
-                        dropdownContent.style.display = "none";
-                    } else {
-                        dropdownContent.style.display = "block";
-                    }
-                });
-            }
-        </script>
-
-</body>
-
-</html>
-=======
-                    <a href="#">Danh sách yêu cầu vay <i class="fa fa-plus"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Giải ngân -->
-        <button class="dropdown-btn">Kế toán
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-container">
-            <button class="dropdown-btn">Kho quỹ
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Thông tin quỹ tiền</a>
-                <a href="#">Cập nhật thông tin quỹ tiền</a>
-            </div>
-            <button class="dropdown-btn">Phiếu chi
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách phiếu chi <i class="fa fa-plus"></i></a>
-            </div>
-            <button class="dropdown-btn">Phiếu thu
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách phiếu thu <i class="fa fa-plus"></i></a>
-            </div>
-        </div>
-
-        <!-- Thanh toán nợ -->
-        <button class="dropdown-btn">Quy trình thanh toán
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-container">
-
-            <div class="dropdown-container2">
-                <a href="#">Danh sách thanh toán đợt <i class="fa fa-plus"></i></a>
-                <a href="#">Danh sách toán đợt trễ hạn <i class="fa fa-plus"></i></a>
-            </div>
-        </div>
-
-        <!-- Gói vay -->
-        <button class="dropdown-btn">Gói vay
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-container">
-            <a href="#">Danh sách gói vay <i class="fa fa-plus"></i></a>
-        </div>
-
-        <!-- Quản lý tài khoản -->
-        <button class="dropdown-btn">Quản lý tài khoản
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-container">
-            <a href="#">Danh sách tài khoản <i class="fa fa-plus"></i></a>
-            <a href="#">Phân quyền</a>
-        </div>
-
-        <!-- Quản lý khách hàng vay -->
-        <button class="dropdown-btn">Quản lý khách hàng vay
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-container">
-            <a href="#">Danh sách khách hàng vay <i class="fa fa-plus"></i></a>
-        </div>
-
-        <!-- Báo cáo -->
-        <button class="dropdown-btn">Báo cáo
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-container">
-            <button class="dropdown-btn">Thanh toán nợ
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách báo cáo thanh toán nợ <i class="fa fa-plus"></i></a>
-            </div>
-
-            <button class="dropdown-btn">Gói vay
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách cáo gói vay <i class="fa fa-plus"></i></a>
-            </div>
-
-            <button class="dropdown-btn">Giải ngân
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách cáo giải ngân <i class="fa fa-plus"></i></a>
-            </div>
-
-            <button class="dropdown-btn">Nợ xấu
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách cáo nợ xấu <i class="fa fa-plus"></i></a>
-            </div>
-
-            <button class="dropdown-btn">Thẩm định
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách cáo thẩm định <i class="fa fa-plus"></i></a>
-            </div>
-
-            <button class="dropdown-btn">Tài khoản hệ thống
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách cáo tài khoản hệ thống <i class="fa fa-plus"></i></a>
-            </div>
-
-            <button class="dropdown-btn">Kho quỹ
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách cáo kho quỹ <i class="fa fa-plus"></i></a>
-            </div>
-
-            <button class="dropdown-btn">Khách hàng
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Danh sách cáo khách hàng<i class="fa fa-plus"></i></a>
-            </div>
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script>
         /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -412,4 +231,4 @@
 </body>
 
 </html>
->>>>>>> e2c8840ae03b66b709689e1b85ead4d4c1dd949e
+
